@@ -1,0 +1,178 @@
+//Buttons
+.custom_btn {
+    font-family:$vodafonrg-regular;
+    font-size: 16px;
+    line-height:20px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 20px;
+    @extend %primary-font;
+    height: 24px;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-width: 100px;
+    position: relative;
+    //text-transform: uppercase;
+    white-space: nowrap;
+    &::after{
+	    transition: all 0.3s;
+        height: 100%;
+        left: -35%;
+        top: 0;
+        transform: skew(50deg);
+        transition-duration: 0.5s;
+        transform-origin: top left;
+        width: 0;
+    }
+    &::before,&::after{
+        content: '';
+        position: absolute;
+        z-index: 0;
+        background: rgba(0, 0, 0, 0.05);
+    }
+    &:hover{
+        &::after{
+            height: 100%;
+            width: 135%;
+        }
+    }
+    &.disabled,
+    &:disabled {
+        background: $disable;
+        border-color: $disable;
+        @extend %white-color;
+        cursor: auto;
+        &:hover {
+            background: $disable;
+            border-color: $disable;
+            @extend %white-color;
+        }
+    }
+    .icon{
+        img {
+            width: 16px;
+        }
+        + span{
+            padding-left: 8px;
+            margin-left: 4px;
+        }
+    }
+    span{
+        display: inline-block;
+        white-space: nowrap;
+        + .icon{
+            padding-left: 8px;
+            margin-left: 4px;
+        }
+    }
+    &.btn_block{
+        display: flex;
+        width: 100%;
+    }
+    &.custom_btn_sm{
+        height: 30px;
+        font-size: 11px;
+        padding: 6px 18px;
+    }
+}
+
+.custom_btn_primary{
+    @extend %primary-bg;
+    border-color: $primary !important;
+    @extend %white-color;
+    &:hover {
+        @extend %primary-bg;
+        border-color: $primary !important;
+        @extend %white-color;
+    }
+    &:disabled, &.disabled{
+        background: $disable;
+        border-color: $disable !important;
+        @extend %white-color;
+    }
+}
+
+.custom_btn_primary_outline{
+    background: transparent;
+    border:1px solid $fuldark-gray !important;
+    border-radius: 6px;
+    padding: 5px 13px;
+    color: $fuldark-gray;
+    &:hover {
+        background: transparent;
+        border:1px solid $dark-gray !important;
+        color: $dark-gray;
+    }
+}
+
+.hyperlink{
+    @extend %primary-color;
+    @extend %primary-font;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        @extend %primary-color;
+        text-decoration: none;
+        img{
+            animation: slide1 .8s ease-in-out infinite;
+        }
+    }
+    .icon{
+        img {
+            width: 16px;
+        }
+        + span{
+            padding-left: 8px;
+            margin-left: 4px;
+        }
+    }
+    span{
+        display: inline-block;
+        white-space: nowrap;
+        + .icon{
+            padding-left: 8px;
+            margin-left: 4px;
+        }
+    }
+    &.hyperlink_sm{
+        font-size: 12px
+    }
+    &.disabled, &:disabled{
+        color: #DFDFE1;
+        &:hover{
+            color: #DFDFE1;
+        }
+    }
+}
+
+.backbtn-comp{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+.back_btn{height:30px; width:65px; line-height:19px;text-align:center;}
+label{font-family:$vodafonrg-bold;font-size:24px; margin:0px;padding: 0px; line-height:30px;}
+}
+
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(5px, 0);
+    }
+}
+
+.btn-link-blk{
+    a{font-size:14px; line-height:22px;color:$secondary; text-decoration: underline !important;}
+    a:hover{font-size:14px; line-height:22px;color:$secondary;}
+}

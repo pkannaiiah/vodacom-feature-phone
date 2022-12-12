@@ -1,0 +1,11 @@
+<svg id="Next_icon" data-name="Next icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_5_Copy" data-name="Group 5 Copy">
+    <g id="Group_11" data-name="Group 11" transform="translate(20 20) rotate(-180)">
+      <g id="Oval" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.8">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="9.6" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_15" data-name="Path 15" d="M-5,0,2.143,5.221-5,10.98" transform="translate(12.571 5)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

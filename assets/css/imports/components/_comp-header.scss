@@ -1,0 +1,19 @@
+.vfp_main_header{
+font-family:$vodafonlt-light;
+display:flex;
+justify-content:start;
+align-items:center;
+padding:12px 0px 10px 0px;
+img{width:24px;height:24px;}
+label{margin:0px;padding:0px;color:$secondary;}
+select{
+    font-family:$vodafonrg-regular;
+    font-size:16px;
+    line-height:18px;
+    padding:1px 3px;
+    background:$white;
+    border:1px solid #333;
+    border-radius:4px;
+    option{color:$primary;background:$white;}
+}
+}

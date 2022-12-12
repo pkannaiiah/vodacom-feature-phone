@@ -1,0 +1,9 @@
+<svg id="Back_icon" data-name="Back icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_11_Copy" data-name="Group 11 Copy" transform="translate(20 20) rotate(180)">
+    <g id="Oval" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.8">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.6" fill="none"/>
+    </g>
+  </g>
+  <path id="Path_15_Copy" data-name="Path 15 Copy" d="M7.143,0,0,5.221,7.143,10.98" transform="translate(6.143 5)" fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+</svg>
