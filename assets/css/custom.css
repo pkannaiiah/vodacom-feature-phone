@@ -1118,6 +1118,102 @@ a:hover {
   cursor: none;
 }
 
+.vfp-summary-card {
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+}
+.vfp-summary-card .vfp-heading {
+  font-family: "VodafoneRg-Bold", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2FB650;
+}
+.vfp-summary-card .vfp-sub-title {
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 8px;
+}
+.vfp-summary-card .vfp-support {
+  color: #AAAAAA;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 4px;
+}
+
+.vfp-comp-text {
+  margin-top: 20px;
+}
+.vfp-comp-text .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.vfp-comp-text .row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-family: "VodafoneRg-Bold", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+.vfp-comp-text .row3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0px;
+}
+.vfp-comp-text .row4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.vfp-comp-text .row5 {
+  margin: 16px 0px;
+  text-align: center;
+}
+.vfp-comp-text .row5 button {
+  width: 100%;
+}
+
+.vfp-success {
+  text-align: center;
+}
+.vfp-success .success_title {
+  margin-top: 16px;
+}
+.vfp-success .success-button {
+  margin-top: 10px;
+}
+.vfp-success .success-button button {
+  width: 100%;
+}
+.vfp-success .success-image {
+  margin-top: 16px;
+}
+.vfp-success .success-image img {
+  width: 31px;
+}
+.vfp-success .success-image .success_title {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.vfp-success .success-details .row1 {
+  font-family: "VodafoneRg-Bold", Arial, Helvetica, sans-serif;
+  margin-top: 18px;
+}
+.vfp-success .success-details .row2 {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.vfp-success .success-details .row3 {
+  margin-top: 4px;
+}
+.vfp-success .success-details .row4 {
+  margin-top: 10px;
+}
+
 .custom_modal .modal-dialog {
   max-width: 400px;
   top: 50%;
