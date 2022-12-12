@@ -70,7 +70,15 @@ a {
 
 .me-2 {margin-right: .5rem !important;}
 .ms-2 {margin-left: .5rem !important;}
+.me-1 {margin-right: .25rem !important;}
+.ms-1 {margin-left: .25rem !important;}
+.mt-1 {margin-top: .25rem !important;}
+.mb-1 {margin-bottom: .25rem !important;}
 
+.dark_green
+{
+    color: $dark-green;
+}
 /*resend-opt-row*/
 .resend-opt-row{
     font-family:$vodafonlt-light;
@@ -131,6 +139,15 @@ a {
     line-height: 16px;
     color: $fuldark-gray;
 }
+
+/* Page Title Start */
+.pagetitle
+{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: $vodafonrg-regular;
+}
+/* Page Title End*/
 
 /*lange*/
 .lang-select{

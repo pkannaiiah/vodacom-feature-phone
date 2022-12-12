@@ -1,23 +1,118 @@
-.vfp-fcard1{
-    background:$white;
-    padding:10px;
-    border-radius:9px;
+.vfp-fcard1 {
+    background: $white;
+    padding: 10px;
+    border-radius: 9px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    p{font-size:14px; line-height:16px; margin-bottom:3px;}
-    label{font-family:$vodafonrg-bold;font-size:15px;line-height:18px;}
+
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+
+    label {
+        font-family: $vodafonrg-bold;
+        font-size: 15px;
+        line-height: 18px;
+    }
 }
 
-.vfp-fcard2{
-    background:$white;
-    padding:10px;
-    border-radius:9px;
+.vfp-fcard2 {
+    background: $white;
+    padding: 10px;
+    border-radius: 9px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    p{font-size:14px; line-height:16px; margin-bottom:3px;}
-    label{font-family:$vodafonrg-regular;font-size:16px;line-height:18px;}
-    .cont-sec{width:100%;text-align: center;}
-    .active{border:2px solid $primary}
+
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 3px;
+    }
+
+    label {
+        font-family: $vodafonrg-regular;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .cont-sec {
+        width: 100%;
+        text-align: center;
+    }
+
+    .active {
+        border: 2px solid $primary
+    }
+}
+
+.vfp-bund-card {
+    display: -webkit-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:-0.25px;
+
+    .vfp-fcard3 {
+        background: $white;
+        border: 1px solid $secondary;
+        border-radius: 6px;
+        flex: 1 0 48%;
+
+        .fcard3_cont { 
+            padding: 5px;
+            display: flex;
+            text-align: center;
+           img {
+                width: 25px;
+            }
+            label {
+                font-size: 15px;
+                padding: 0px 10px;
+                line-height: 15px;
+            }
+        }
+    }
+}
+
+.vfp-prod-card {
+    display: -webkit-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:-0.25px;
+
+    .vfp-fcard4 {
+        background: $white;
+        border-radius: 6px;
+        flex: 1 0 48%;
+
+        .fcard4_cont { 
+            padding: 8px;
+            text-align: center;
+            .fcard4_title {
+                font-size: 14px;
+                line-height: 14px;
+                font-family: $vodafonrg-bold;
+                color: $dark-green;
+            }
+            .fcard4_support_txt
+            {
+                font-size: 12px;
+                line-height: 14px;
+                font-family: $vodafonrg-regular;
+            }
+        }
+        .fcard_disabled
+        {
+            
+            label
+            {
+                color: #CCCCCC !important;
+                cursor: none;
+            }
+        }
+
+    }
 }

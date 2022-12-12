@@ -787,6 +787,26 @@ a:hover {
   margin-left: 0.5rem !important;
 }
 
+.me-1 {
+  margin-right: 0.25rem !important;
+}
+
+.ms-1 {
+  margin-left: 0.25rem !important;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.dark_green {
+  color: #2FB650;
+}
+
 /*resend-opt-row*/
 .resend-opt-row {
   font-family: "VodafoneLt-Regular", Arial, Helvetica, sans-serif;
@@ -868,6 +888,14 @@ a:hover {
   color: #666666;
 }
 
+/* Page Title Start */
+.pagetitle {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "VodafoneRg-Regular", Arial, Helvetica, sans-serif;
+}
+
+/* Page Title End*/
 /*lange*/
 .lang-select .activ {
   border-color: #E60000;
@@ -1031,6 +1059,63 @@ a:hover {
 }
 .vfp-fcard2 .active {
   border: 2px solid #E60000;
+}
+
+.vfp-bund-card {
+  display: -webkit-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -0.25px;
+}
+.vfp-bund-card .vfp-fcard3 {
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  flex: 1 0 48%;
+}
+.vfp-bund-card .vfp-fcard3 .fcard3_cont {
+  padding: 5px;
+  display: flex;
+  text-align: center;
+}
+.vfp-bund-card .vfp-fcard3 .fcard3_cont img {
+  width: 25px;
+}
+.vfp-bund-card .vfp-fcard3 .fcard3_cont label {
+  font-size: 15px;
+  padding: 0px 10px;
+  line-height: 15px;
+}
+
+.vfp-prod-card {
+  display: -webkit-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -0.25px;
+}
+.vfp-prod-card .vfp-fcard4 {
+  background: #FFFFFF;
+  border-radius: 6px;
+  flex: 1 0 48%;
+}
+.vfp-prod-card .vfp-fcard4 .fcard4_cont {
+  padding: 8px;
+  text-align: center;
+}
+.vfp-prod-card .vfp-fcard4 .fcard4_cont .fcard4_title {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "VodafoneRg-Bold", Arial, Helvetica, sans-serif;
+  color: #2FB650;
+}
+.vfp-prod-card .vfp-fcard4 .fcard4_cont .fcard4_support_txt {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "VodafoneRg-Regular", Arial, Helvetica, sans-serif;
+}
+.vfp-prod-card .vfp-fcard4 .fcard_disabled label {
+  color: #CCCCCC !important;
+  cursor: none;
 }
 
 .custom_modal .modal-dialog {

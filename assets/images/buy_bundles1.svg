@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.255" height="19.658" viewBox="0 0 21.255 19.658">
+  <g id="Group_2" data-name="Group 2" transform="translate(0.463)">
+    <g id="_-g-Group_8" data-name="-g-Group 8" transform="translate(1.89)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0)">
+        <g id="Oval" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926">
+          <ellipse cx="9.451" cy="9.829" rx="9.451" ry="9.829" stroke="none"/>
+          <ellipse cx="9.451" cy="9.829" rx="8.988" ry="9.366" fill="none"/>
+        </g>
+        <g id="Oval-2" data-name="Oval" transform="translate(4.448)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926">
+          <ellipse cx="5.003" cy="9.829" rx="5.003" ry="9.829" stroke="none"/>
+          <ellipse cx="5.003" cy="9.829" rx="4.541" ry="9.366" fill="none"/>
+        </g>
+        <path id="Path_7" data-name="Path 7" d="M0,0V18.346" transform="translate(18.902 10.118) rotate(90)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926"/>
+        <path id="Path_7-2" data-name="Path 7" d="M0,0V16.122" transform="translate(17.512 5.493) rotate(90)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926"/>
+        <path id="Path_7_Copy" data-name="Path 7 Copy" d="M0,0V15.752" transform="translate(17.512 14.744) rotate(90)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926"/>
+      </g>
+      <path id="Path_7-3" data-name="Path 7" d="M.289,0V19.08" transform="translate(9.44 0.578)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="0.926"/>
+    </g>
+    <g id="_-g-Rectangle" data-name="-g-Rectangle" transform="translate(1.103 6.346)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="0.926">
+      <rect width="8.663" height="7.372" stroke="none"/>
+      <rect x="0.463" y="0.463" width="7.738" height="6.446" fill="none"/>
+    </g>
+    <g id="Group" transform="translate(0 7.902)">
+      <path id="Path_12" data-name="Path 12" d="M3.938.41H0" transform="translate(4.253 -0.41)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.926"/>
+      <path id="Path_12-2" data-name="Path 12" d="M7.4.819H.512" transform="translate(1.083 1.229)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.926"/>
+      <path id="Path_12-3" data-name="Path 12" d="M9,.819H.491" transform="translate(-0.491 3.686)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.926"/>
+    </g>
+  </g>
+</svg>
